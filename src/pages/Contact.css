@@ -1,0 +1,11 @@
+.contact-form-container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  @media (max-width: 992px) {
+    .contact-form-container {
+      width: 90%;
+    }
+  }
