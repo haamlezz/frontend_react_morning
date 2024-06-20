@@ -6,6 +6,7 @@ import Chat from "./pages/Chat";
 import Flag from "./pages/Flag";
 import Shirt from "./pages/Shirt";
 import Product from "./pages/Products";
+import TodoList from "./pages/TodoList";
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <Link to="/flag">Flag</Link> - &nbsp;
       <Link to="/shirt">Shirt</Link> - &nbsp;
       <Link to="/addproduct">Add product</Link>
+      <Link to="/todolist">Todo List</Link>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,6 +26,7 @@ function Main() {
         <Route path="/flag" element={<Flag />} />
         <Route path="/shirt" element={<Shirt />} />
         <Route path="/addproduct" element={<Product />} />
+        <Route path="/todolist" element={<TodoList />} />
       </Routes>
     </>
   );

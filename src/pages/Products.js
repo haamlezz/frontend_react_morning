@@ -38,13 +38,13 @@ const Product = () => {
   if (error) return <div>Failed to load products</div>;
   if (!data) return <div>Loading...</div>;
 
-  // const handleDelete = (id) => {
-  //   console.log(`delete id ${id}`);
-  // };
+  const handleDelete = (id) => {
+    console.log(`delete id ${id}`);
+  };
 
-  // const handleEdit = (id) => {
-  //   console.log(`edit id ${id}`);
-  // };
+  const handleEdit = (id) => {
+    console.log(`edit id ${id}`);
+  };
 
   return (
     <>
